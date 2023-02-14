@@ -1,0 +1,187 @@
+@import "reset.css";
+
+a:focus, a:hover{
+  text-decoration: none;
+}
+
+.navbar-brand{
+  line-height: 17px;
+}
+
+#fullpage{
+  height: 100vh;
+}
+
+.section{
+  height: 100vh;
+  text-align: center;
+  padding-top: 50px;
+  box-sizing: border-box;
+}
+.section .s-title {
+  font-size: 3em;
+  font-family: "Pacifico", cursive;
+  color: #6954c6;
+  padding-bottom: 50px;
+}
+body{
+  font-size: 16px;
+  background-color: #ecf0f7;
+  line-height: 1.6;
+}
+
+small {
+  font-size: 0.875em;
+}
+
+nav{
+  width: 100%;
+  display: flex;
+  justify-content:flex-end;
+}
+nav>ul{
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav li{
+  margin: 0 10px;
+}
+nav a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.main {
+  text-align: center;
+  background-color: #e2e7f2;
+}
+.main .top-text {
+  font-family: "Pacifico", cursive;
+  font-size: 11em;
+  font-weight: normal;
+  color: #440a7e;
+}
+.main p {
+  margin-top: 60px;
+  color: #5a5e75;
+  font-size: 1.3em;
+}
+
+.about {
+  background-color: #ecf0f7;
+  text-align: left;
+}
+.about .info {
+  padding-bottom: 3em;
+}
+.about .info p {
+  font-size: 1.2em;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+.about .title {
+  background: #fff;
+  display: inline-block;
+  border-radius: 30px;
+  padding: 1px 10px;
+  color: #1c2247;
+  margin-bottom: 5px;
+}
+.about .certification, .about .profile, .about .edu, .about .skill {
+  padding-bottom: 3em;
+}
+.about .certification span, .about .profile span, .about .edu span {
+  font-weight: 600;
+  color: #1c2247;
+}
+.about .certification span:last-of-type {
+  font-weight: 400;
+  color: rgb(85, 85, 85);
+}
+.about small {
+  vertical-align: text-bottom;
+}
+
+.about .skill ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.about .skill ul li {
+  padding: 8px;
+}
+.about .skill ul li img {
+  width: 50px;
+  height: 50px;
+}
+.about .skill ul li p {
+  text-align: center;
+}
+
+.fp-tableCell{
+  height: 0 !important;
+}
+
+.works .s-title{
+  padding: 70px 0 40px;
+}
+
+.works .slide{
+  height: 500px;
+  overflow: hidden;
+  flex-direction: row;
+  padding:60px 0 0;
+}
+
+.works .slide img{
+  display: block;
+  width: 100%;
+}
+.works .slide .iphone{
+  width: 45%;
+  margin: 0 auto;
+}
+
+.works .right .w-title{
+  font-size: 1.5rem;
+  padding: 10px 0;
+  color: #fff;
+  background-color: #6e50c0;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+.works .right .w-name{
+  display: block;
+  padding: 6px 0;
+  width: 25%;
+  text-align: left;
+  float: left;
+}
+
+.works .right .w-text{
+  display: inline-block;
+  width: 75%;
+  text-align: left;
+  padding: 6px 0;
+}
+.works .right p{
+  margin-top: 20px;
+}
+.works .right .w-link{
+  font-size: 1.2rem;
+  display: block;
+  margin-top: 30px;
+}
+.fp-controlArrow {
+  top: 60%;
+  }
+  
+footer {
+  color: rgb(114, 114, 114);
+  padding: 1em 0;
+  background: #fff;
+  width: 100%;
+  height: 60px;
+  padding-top: 20px !important;
+}
